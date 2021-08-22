@@ -169,6 +169,8 @@ if ($countrycode == "US") {
 
 } elseif ($countrycode == "BD") {
 
+} elseif ($countrycode == "PA") {
+
 } elseif ($countrycode == "NL") {
 
 } elseif ($countrycode == "CA") {
