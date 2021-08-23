@@ -171,6 +171,8 @@ if ($countrycode == "US") {
 
 } elseif ($countrycode == "PA") {
 
+} elseif ($countrycode == "PE") {
+
 } elseif ($countrycode == "NL") {
 
 } elseif ($countrycode == "CA") {
