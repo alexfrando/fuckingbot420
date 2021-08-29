@@ -12,7 +12,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -195,7 +195,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -209,7 +209,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -242,7 +242,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -256,7 +256,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -287,7 +287,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -301,7 +301,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -331,7 +331,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -345,7 +345,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -379,7 +379,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -393,7 +393,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -420,7 +420,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -434,7 +434,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1011,7 +1011,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1025,7 +1025,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1192,7 +1192,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1206,7 +1206,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1732,7 +1732,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -1746,7 +1746,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2118,7 +2118,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2132,7 +2132,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2168,7 +2168,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2182,7 +2182,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2222,7 +2222,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2236,7 +2236,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2273,7 +2273,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2287,7 +2287,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2325,7 +2325,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2339,7 +2339,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2388,7 +2388,7 @@ $params=[
 ];
 
 $ch = curl_init($bot . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
@@ -2402,7 +2402,7 @@ $params=[
 ];
 
 $ch = curl_init($bots . '/sendMessage');
-curl_setopt($ch, CURLOPT_HEADER, false);
+//curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
